@@ -5,6 +5,7 @@ from dotenv import load_dotenv
 from langgraph.graph import StateGraph, END
 from langgraph.prebuilt import ToolNode
 import openai
+from config import AGENTS, WORLD_RULES
 
 # Configure logging
 logging.basicConfig(
@@ -25,41 +26,6 @@ logger.info("Environment variables loaded")
 openai.api_key = os.getenv("DEEPSEEK_API_KEY")
 openai.base_url = "https://api.deepseek.com/"
 logger.info("OpenAI client configured with DeepSeek API")
-
-# World Rules
-WORLD_RULES = """
-这是一个奇幻世界，包含以下规则：
-1. 魔法是真实存在的，但需要特定的天赋和训练才能掌握
-2. 世界分为三个主要势力：
-   - 王国：由人类统治，重视秩序和传统
-   - 森林居民：与自然和谐共处，掌握古老的魔法
-   - 山地部落：崇尚力量，擅长锻造和战斗
-3. 每个势力都有其独特的文化和价值观
-4. 魔法物品具有自主意识，会选择合适的持有者
-5. 预言和梦境具有特殊意义
-"""
-
-# Agent Definitions
-AGENTS = {
-    "royal_advisor": {
-        "name": "Eldara",
-        "role": "皇家顾问",
-        "persona": "智慧、谨慎、重视传统",
-        "abilities": ["政治智慧", "历史知识", "外交技巧"]
-    },
-    "forest_shaman": {
-        "name": "Thorn",
-        "role": "森林萨满",
-        "persona": "神秘、直觉敏锐、与自然相连",
-        "abilities": ["自然魔法", "预言能力", "草药知识"]
-    },
-    "mountain_chieftain": {
-        "name": "Grimrock",
-        "role": "山地酋长",
-        "persona": "强硬、直接、重视荣誉",
-        "abilities": ["战斗技能", "领导才能", "锻造技术"]
-    }
-}
 
 # State Management
 class AgentState(TypedDict):
@@ -189,7 +155,7 @@ def create_summarizer():
     
     return summarizer
 
-def should_continue(state: AgentState, max_iter: int = 10) -> bool:
+def should_continue(state: AgentState, max_iter: int = 1) -> bool:
     """Determine if the conversation should continue."""
     
     # Count only the messages from acting agents (excluding the summarizer's message)
