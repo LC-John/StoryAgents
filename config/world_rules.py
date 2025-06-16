@@ -1,4 +1,9 @@
-"""World rules configuration for the story generation system."""
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+"""
+World rules configuration for the story generation system.
+Defines the rules and setting of the fantasy world where the story takes place.
+"""
 
 WORLD_RULES = """
 这是一个奇幻世界，包含以下规则：

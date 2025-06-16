@@ -1,4 +1,9 @@
-"""Agent configurations for the story generation system."""
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+"""
+Agent configurations for the story generation system.
+Defines the characteristics and abilities of each agent in the story.
+"""
 
 AGENTS = {
     "royal_advisor": {

@@ -1,3 +1,10 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+"""
+StoryAgents - A multi-agent story generation system
+Main entry point for the story generation workflow.
+"""
+
 import os
 import logging
 from typing import TypedDict, Annotated, Sequence
