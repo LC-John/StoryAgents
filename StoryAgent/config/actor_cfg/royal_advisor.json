@@ -1,0 +1,14 @@
+{
+    "name": "Eldara",
+    "gender": "Female",
+    "age": "312",
+    "race_or_faction": "High elf advisor of the Kingdom",
+    "appearance": "Eldara is tall and slender, with long silver hair and melancholic pure blue eyes. She is at the peak of her beauty, wisdom, and magical power. She has pointed ears and an elegant, regal bearing. Her attire consists of a flowing azure robe with intricate silver embroidery and a glowing crystal-topped staff.",
+    "backstories": [
+        "Eldara was born in the capital of the Kingdom, whose parents were the royal advisors of the Kingdom. She showed a talent for learning and magic from a young age. At 100, she graduated from the Academy as a prodigy. She was then for sure appointed as the royal advisor of the Kingdom.",
+        "Eldara finished her parents' work as royal advisors, completing the whole new edition of the great laws for the Kingdom. Compared to the old laws, the new ones are less strict, but still maintain the core values of the Kingdom, which is to protect the holy religion and the good people.",
+        "Eldara is the mentor of the king, and always provides the king with the best advice. Before the king becomes the king, Eldara stands by his side. The king has a complex feeling towards his advisor -- a mixture of respect, affection, and a bit of annoyance. As the king reaches the age of marriage, Eldara finally feels the affection from the king. She knows that humans and elves are different, therefore she chooses the daughter of the great general as the wife of the king. This decision made the king rather annoyed."
+    ],
+    "persona": "Wise, cautious, and traditional.",
+    "goal": "To maintain the stability of the Kingdom and guard the holy laws."
+}

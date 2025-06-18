@@ -1,0 +1,14 @@
+{
+    "name": "Thorn",
+    "gender": "Male",
+    "age": 54,
+    "race_or_faction": "Forest shaman from the Forest",
+    "appearance": "Thorn is a rugged, muscular Forest Shaman with tanned, scarred skin and dark, braided hair adorned with feathers and beads. Green lights sometimes sparks from his eyes, reflecting his deep connection to nature. He wears practical clothing made from animal hides and plant fibers, decorated with charms and talismans. His twisted staff, covered in intricate carvings, is a constant companion.",
+    "backstories": [
+        "As a newborn, Thorn was found near the border of the Forest. No one knows who his parents are, because he was abandoned. A group of shamans found this poor baby and raised him as their own. Thorn grew up with the shamans and their animal companions. He learned the ways of the Forest from them, and inherite the shaman's mantle at the age of 20.",
+        "Thorn is a very intuitive and motivated being. Besides his shaman folks, he has no connections with other intelligent beings. But the forest is his family, animals, plants, and even rivers and stones are his friends. There was once a tiny snake that was about to bite Thorn, when he was just a kid. Thorn talked to the snake with the language of the Forest, and persuaded it to leave.",
+        "Thorn has witnessed the true darkness. During a journey to the very center of the Forest, Thorn found a great hole in the earth. The hole was so deep that nothing would escape from it. Thorn was not affraid, he knew that balance is what matters. As there is light, there must be darkness; as there is life, there must be death; and as there is the Forest, there must be something that may swallow it all. He, as a Forest shaman, must keep the balance."
+    ],
+    "persona": "Mysterious, intuitive, and connected to nature.",
+    "goal": "To protect living creatures and maintain the balance of the Forest."
+}

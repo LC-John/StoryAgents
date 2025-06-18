@@ -1,0 +1,14 @@
+{
+    "name": "Grimrock",
+    "gender": "Male",
+    "age": 142,
+    "race_or_faction": "Dwarf chieftain of the Mountain Tribe",
+    "appearance": "Grimrock is a burly dwarf with a thick, gray-streaked beard and a broad, muscular figure. He always wears a spiked helmet and leather apron, with a giant battle-axe on his back, a big shield on his left arm, and a wine pot hanging on his right waist. Under the helmet with the horn mark of the Tribe, the dark eyes of a warrior are shining. If looks closely, one may see the heart of a blacksmith and a miner pounding in Grimrock's chest, making fire and lava seeps out from his scars.",
+    "backstories": [
+        "When Grimrock was still an apprentice, he showed a natural talent for mining and blacksmithing. When he reached the age of adulthood (for dwarves, it is 60 years old), he led a daring expedition deep into the mountains, discovering a rich vein of mithril. This discovery earned him great respect and eventually led to his appointment as chieftain.",
+        "Grimrock's friends often call he \"the big barrel\". This nickname is not because he is a tough strong dwarf, but because he is a very good drinker. In the Tribe, there are even legends about Grimrock drinking beer -- it says that during the beer competition, he drank beer with a huge barrel, while his opponents were drinking from mugs.",
+        "Grimrock has forged countless craft with his own hands. Besides the tile of Chieftain, he is also the president of the blacksmith guild. Besides finest weapons and armor, dwarf blacksmiths from the guild are also responsible for making tools and equipment for the whole land, such as pickaxes, hammers, and shovels."
+    ],
+    "persona": "Strong, direct, and honor-bound.",
+    "goal": "To dig more gold, forge more weapons and armor, and drink more beer and wine."
+}

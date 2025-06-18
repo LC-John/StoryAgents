@@ -7,6 +7,16 @@ requires-python = ">=3.13"
 dependencies = [
     "langgraph>=0.4.8",
     "openai>=1.86.0",
+    "pytest>=8.4.0",
     "python-dotenv>=1.1.0",
 ]
+
+[tool.pytest.ini_options]
+pythonpath = [
+    "."
+]
+testpaths = [
+    "StoryAgent"
+]
+python_files = ["test_*.py"]
  
