@@ -42,8 +42,11 @@ def parse_args():
                       help='Path to world configuration file')
     parser.add_argument('--max-iterations',
                       type=int,
-                      default=3,
+                      default=5,
                       help='Maximum number of iterations for actor interactions')
+    parser.add_argument('--language',
+                      default="中文",
+                      help='Language for story generation (default: 中文)')
     return parser.parse_args()
 
 def should_continue(state: AgentState, max_iter: int = 3) -> bool:
@@ -66,7 +69,7 @@ def should_continue(state: AgentState, max_iter: int = 3) -> bool:
     logger.debug(f"Continuing with acting agents. Current iteration: {len(acting_messages)}/{max_iter}")
     return True
 
-def create_workflow(actors_dir: str, max_iter: int) -> StateGraph:
+def create_workflow(actors_dir: str, max_iter: int, lang: str) -> StateGraph:
     """Create the story generation workflow."""
     logger.info("Starting story generation workflow")
     
@@ -87,7 +90,7 @@ def create_workflow(actors_dir: str, max_iter: int) -> StateGraph:
     
     # Add controller and writer nodes
     workflow.add_node("controller", ControllerAgent())
-    workflow.add_node("writer", WriterAgent())
+    workflow.add_node("writer", WriterAgent(lang=lang))
     logger.info("Added all nodes to workflow")
     
     # Set the entry point
@@ -126,7 +129,7 @@ def main():
     args = parse_args()
     
     # Create workflow
-    workflow = create_workflow(args.actors_dir, args.max_iterations)
+    workflow = create_workflow(args.actors_dir, args.max_iterations, args.language)
     
     # Initialize state
     actor_ids = [f[:-5] for f in os.listdir(args.actors_dir) if f.endswith('.json')]

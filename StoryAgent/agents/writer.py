@@ -8,9 +8,10 @@ from .agent import BaseAgent, AgentState
 from ..config.config import WorldInfo
 
 class WriterAgent(BaseAgent):
-    def __init__(self):
+    def __init__(self, lang: str = "中文"):
         self.logger = logging.getLogger(f"Story.Writer")
         self.logger.info("Story.Writer initialized")
+        self.lang = lang
 
     def _gen_prompt(self, state: AgentState) -> str:
         prompt = f"""You are a story writer. You will write a novel story based on the transcript of a role-playing game. In the role-playing game, there are several characters interacting with each other in a fictional world. In each round, only one character is allowed to speak or act. You are supposed to read the script of this whole game, and write a complete story based on the script. Your input includes the detailed description of the world, the detailed descriptions of the characters, the world state, and the role-playing history. The input texts are listed below.
@@ -30,7 +31,7 @@ class WriterAgent(BaseAgent):
 Please write a complete story based on the above script. You should maintain the characters' personalities. You should make the story not only interesting and vivid, but also conforming to the script.
 
 There are some IMPORTANT NOTES for you:
-1. """
+1. You need to write the story in {self.lang}."""
 
         return prompt
     
