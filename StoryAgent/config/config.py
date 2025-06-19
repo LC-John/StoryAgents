@@ -30,11 +30,11 @@ class ActorInfo:
 Gender: {self.gender}
 Age: {self.age}
 Race or faction: {self.race_or_faction}
-Appearance: {self.appearance}
-Personality: {self.persona}"""
+Appearance: {self.appearance}"""
 
     def __str__(self) -> str:
         return self.brief() + f"""
+Personality: {self.persona}
 Goal: {self.goal}
 Backstories:
 {"\n".join(f"  - {story}" for story in self.backstories)}"""
@@ -53,6 +53,6 @@ class WorldInfo:
 
     def __str__(self) -> str:
         return f"""Description: {self.description}
-Current state: {self.state}
 Rules:
-{"\n".join(f"  - {rule}" for rule in self.rules)}"""
+{"\n".join(f"  - {rule}" for rule in self.rules)}
+Current state: {self.state}"""

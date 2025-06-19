@@ -42,21 +42,23 @@ def parse_args():
                       help='Path to world configuration file')
     parser.add_argument('--max-iterations',
                       type=int,
-                      default=5,
+                      default=20,
                       help='Maximum number of iterations for actor interactions')
     parser.add_argument('--language',
-                      default="中文",
-                      help='Language for story generation (default: 中文)')
+                      default="English",
+                      help='Language for story generation (default: English)')
+    parser.add_argument('--model',
+                      default="deepseek-chat",
+                      help='LLM model to use for all agents (default: deepseek-chat)')
     return parser.parse_args()
 
-def should_continue(state: AgentState, max_iter: int = 3) -> bool:
+def should_continue(state: AgentState, writer_id: str, max_iter: int = 3) -> bool:
     """Determine if the conversation should continue."""
     # Count only the messages from acting agents (excluding the writer's message)
-    acting_messages = [msg for msg in state["messages"] if "STORY_WRITER" != msg[0]]
-    logger.debug(f"Checking if conversation should continue. Current message count: {len(acting_messages)}")
+    acting_messages = [msg for msg in state["messages"] if writer_id != msg[0]]
     
     # If we've already written the story, end the workflow
-    if any("STORY_WRITER" == msg[0] for msg in state["messages"]):
+    if any(writer_id == msg[0] for msg in state["messages"]):
         logger.info("Story has been written, ending workflow")
         return False
     
@@ -66,10 +68,10 @@ def should_continue(state: AgentState, max_iter: int = 3) -> bool:
         return False
     
     # Otherwise, continue with acting agents
-    logger.debug(f"Continuing with acting agents. Current iteration: {len(acting_messages)}/{max_iter}")
+    logger.info(f"Continuing with acting agents. Current iteration: {len(acting_messages)}/{max_iter}")
     return True
 
-def create_workflow(actors_dir: str, max_iter: int, lang: str) -> StateGraph:
+def create_workflow(actors_dir: str, max_iter: int, lang: str, model: str) -> StateGraph:
     """Create the story generation workflow."""
     logger.info("Starting story generation workflow")
     
@@ -85,13 +87,15 @@ def create_workflow(actors_dir: str, max_iter: int, lang: str) -> StateGraph:
     # Add nodes for each agent
     for actor_id in actor_ids:
         actor_info = ActorInfo.from_file(os.path.join(actors_dir, f"{actor_id}.json"))
-        workflow.add_node(actor_id, ActorAgent(actor_id, actor_info))
+        workflow.add_node(actor_id, ActorAgent(actor_id, actor_info, model=model))
         logger.debug(f"Added node for actor: {actor_id}")
     
     # Add controller and writer nodes
-    workflow.add_node("controller", ControllerAgent())
-    workflow.add_node("writer", WriterAgent(lang=lang))
-    logger.info("Added all nodes to workflow")
+    workflow.add_node("controller", ControllerAgent(model=model))
+    writer = WriterAgent(lang=lang, model=model)
+    writer_id = writer.writer_id
+    workflow.add_node("writer", writer)
+    logger.info(f"Added all nodes to workflow with model: {model}")
     
     # Set the entry point
     workflow.set_entry_point("controller")
@@ -101,7 +105,7 @@ def create_workflow(actors_dir: str, max_iter: int, lang: str) -> StateGraph:
     for actor_id in actor_ids:
         workflow.add_conditional_edges(
             actor_id,
-            lambda state: should_continue(state, max_iter),
+            lambda state, writer_id=writer_id, max_iter=max_iter: should_continue(state, writer_id, max_iter),
             {
                 True: "controller",  # Continue with acting agents
                 False: "writer"      # Go to writer when max iterations reached
@@ -129,7 +133,7 @@ def main():
     args = parse_args()
     
     # Create workflow
-    workflow = create_workflow(args.actors_dir, args.max_iterations, args.language)
+    workflow = create_workflow(args.actors_dir, args.max_iterations, args.language, args.model)
     
     # Initialize state
     actor_ids = [f[:-5] for f in os.listdir(args.actors_dir) if f.endswith('.json')]
@@ -147,8 +151,13 @@ def main():
     
     # Run the workflow
     logger.info("Starting workflow execution")
-    result = app.invoke(initial_state)
+    result = app.invoke(
+        initial_state,
+        config={"recursion_limit": args.max_iterations * 10}
+    )
     logger.info("Workflow execution completed")
+
+    # logger.info("All messages:\n\n" + "\n".join(f"### {sender}'s Round\n{content}\n" for sender, content in result["messages"]))
 
 if __name__ == "__main__":
     main()

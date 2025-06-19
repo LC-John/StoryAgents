@@ -7,18 +7,19 @@ Controller agent implementation for story generation.
 
 import logging
 import re
-import openai
 from .agent import BaseAgent, AgentState
+from .llm import get_llm
 from ..config import WorldInfo
 
 class ControllerAgent(BaseAgent):
     """Controller agent that manages the story flow."""
     
-    def __init__(self):
-        """Initialize actor agent with character configuration."""
-        self.logger = logging.getLogger(f"Story.Controller")
-        self.logger.info(f"Story.Controller initialized")
+    def __init__(self, model: str = "deepseek-chat"):
+        """Initialize controller agent with model configuration."""
         super().__init__()
+        self.logger = logging.getLogger(f"Story.Controller")
+        self.llm = get_llm(model=model)
+        self.logger.info(f"Story.Controller initialized with {model}")
     
     def _gen_prompt(self, state: AgentState) -> str:
         """Generate prompt for the controller agent."""
@@ -43,18 +44,15 @@ Please update the world state and select the character ID to authorize next. You
 
 There are some IMPORTANT NOTES for you:
 1. The \"description\" and the \"rules\" fields in the world state cannot be violated or changed. Your should only output the updated current state in the <state> tags. The state should be a complete and brief description of the current situation.
-2. You should choose the most appropriate character to respond according to the current situation. You need to ensure the coherence and interactivity of the role-playing game. You should preferentially choose characters with diversity to promote multi-party dialogue. """
+2. You should choose the most appropriate character to respond according to the current situation. You need to ensure the coherence and interactivity of the role-playing game. You should also promote multi-party dialogue."""
         return prompt
     
     def __call__(self, state: AgentState) -> AgentState:
         """Process the current state and return the next state."""
         self.logger.info(f"Story.Controller is acting...")
-        response = openai.chat.completions.create(
-            model="deepseek-chat",
-            messages=[{"role": "user", "content": self._gen_prompt(state)}],
-        )
+        response = self.llm.invoke([{"role": "user", "content": self._gen_prompt(state)}])
 
-        msg = response.choices[0].message.content
+        msg = response.content
         new_current_state = re.search(r"<state>(.*?)</state>", msg, re.DOTALL)
         new_current_state = new_current_state.group(1).strip()
         next_actor_id = re.search(r"<actor>(.*?)</actor>", msg, re.DOTALL)
@@ -65,7 +63,7 @@ There are some IMPORTANT NOTES for you:
             state=new_current_state,
             rules=state["world_state"].rules
         )
-        self.logger.info(new_world_state)
+        self.logger.info(new_current_state)
         self.logger.info(next_actor_id)
         return AgentState(
             messages=state["messages"],

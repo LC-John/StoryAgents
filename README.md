@@ -45,299 +45,558 @@ The story will be generated in the console, and logs will be saved to `story_age
 
 ## A Demonstrative Story
 
-Ten rounds of role playing looks like...
+### Role-playing Script
 
-```plaintext
-*手持缠绕着藤蔓的法杖，从阴影中缓步走出，兜帽下的双眼闪烁着微光*
+#### ===== Init World State =====
 
-**这片土地在低语...那件物品并非偶然出现在此地。它选择在此刻现身，就像春天的第一朵花选择绽放的时机。**
+The world is in a state of peace, but tensions are rising as the mysterious magic item found at the border of the Kingdom, the Forest, and the Tribe has sparked curiosity and competition among the factions. Rumors suggest the item holds immense power, and each faction is considering how to claim or neutralize it to maintain the balance of power.
 
-*轻轻触碰地面，几株荧光蘑菇随即在脚边生长*
+#### ===== Forest Shaman's Round =====
 
-**我们森林的子民知晓一个真理 - 强行占有只会带来灾祸。让物品自己选择它的归宿吧。**
+```
+<think> The winds whisper of unrest... The magic item found at the borders stirs the hearts of many. The Forest feels uneasy, the trees murmur warnings. I must tread carefully, for balance is fragile.</think>
 
-*抬头望向其他势力的代表，声音如同林间微风*
+<action> Thorn steps forward from the shadows of the ancient oaks, his twisted staff glowing faintly with green energy. His braided hair sways slightly as he tilts his head, listening to the rustling leaves.</action>
 
-**我提议举行古老的择主仪式。让大地之灵来决定。**
-*双手抱胸，铁甲在阳光下闪着寒光，浓密的胡须随着冷笑抖动*
+<speak> The Forest speaks of a disturbance... a power that does not belong to any one faction. It is not for the Kingdom, nor the Tribe, nor even the Forest to claim. Such things must be handled with care, lest we upset the balance.</speak>
 
-**哈！森林的软蛋又在念叨那些神神叨叨的玩意儿了！**
+<think> Grimrock's presence is strong, like the mountains themselves. Eldara's wisdom is deep, but even she may not see the full picture. I must ensure they understand the danger.</think> 
 
-*重重踏前一步，地面微微震动*
+<action> Thorn raises his staff slightly, the green light pulsing as if in rhythm with his heartbeat. His eyes flicker with the same energy as he looks between Grimrock and Eldara.</action>
 
-**我们山地人只相信一个真理 - 强者才配拥有宝物！什么择主仪式，不过是懦夫的遮羞布！**
-
-*从腰间抽出刻满符文的战斧，斧刃泛着暗红色的光芒*
-
-**要我说，就该用我们祖先的方式 - 比武决胜！让战斧和铁锤来决定谁有资格带走这玩意儿！**
-
-*突然转向王国代表，眯起眼睛*
-
-**你们那些穿着丝绸的贵族老爷该不会也想用文书和条约来解决问题吧？**
-*优雅地向前迈出一步，长袍上的金线在阳光下闪烁，双手交叠置于身前*
-
-**诸位尊贵的代表，请容我以王国的名义发言。**
-
-*微微颔首，目光在森林使者和山地战士之间流转*
-
-**我们确实重视传统与秩序，但绝非如山地勇士所言那般迂腐。**
-
-*从袖中取出一卷泛黄的羊皮纸*
-
-**根据古代盟约记载，在类似情况下，我们的祖先曾采用过'三圣试炼' - 智慧、力量与心灵的考验。这既能尊重森林的择主传统，也能满足山地部落对实力的崇尚。**
-
-*将羊皮卷轻轻展开，露出上面闪烁的魔法符文*
-
-**更重要的是...**
-
-*突然压低声音，眼神变得凝重*
-
-**昨夜王宫的预言池显示，这件物品与即将到来的月蚀有关。强行占有或不当处置都可能引发灾难。**
-
-*转向森林使者，微微欠身*
-
-**您说得对，尊敬的林中智者。这件物品确实选择了出现的时机...但或许它选择的是我们三方共同面对这个考验的时刻。**
-*缓缓抬起法杖，藤蔓上的叶片无风自动，发出沙沙声响*
-
-**预言池的异动...**
-
-*闭目片刻，兜帽下的微光忽明忽暗*
-
-**我看到了...扭曲的月轮下，三条命运之线缠绕着这件物品。强行斩断任何一条，都会让阴影渗入现世。**
-
-*突然睁开双眼，荧光蘑菇剧烈闪烁后化为灰烬*
-
-*转向山地战士，藤蔓法杖轻点地面*
-
-**铁与血的勇士啊，你可知道这件物品在梦境中向我展示的景象？它饮下的每一滴鲜血，都会在月蚀之夜化作百倍偿还的诅咒。**
-
-*转向王国代表，从怀中取出一片发光的树叶*
-
-**古老的'三圣试炼'确实记载在我们的树皮典籍上...但预言显示，这次必须加入第四项考验 - 牺牲。不是力量的牺牲，而是...**
-
-*树叶突然燃烧起来，化作三只发光的蝴蝶分别飞向三方代表*
-
-**每个势力必须献出最珍视之物：王国引以为傲的律法之书，山地部落传承千年的始祖战锤，以及...我们森林的永恒之种。**
-
-*声音突然变得空灵，周围的树木开始无风摇曳*
-
-**只有三件圣物齐聚，才能平息月蚀时物品的暴走。这是大地之灵刚刚告诉我的真相。**
-*突然爆发出一阵震耳欲聋的大笑，笑声在山谷间回荡，惊起一群飞鸟*
-
-**哈哈哈哈！好一个'牺牲'！森林的老树精终于说了句像样的话！**
-
-*猛地将战斧插进地面，单膝跪地，铁甲碰撞发出铿锵声响*
-
-*从腰间解下一把镶嵌着黑曜石的小锤，举过头顶*
-
-**看好了！这就是我们山地部落的始祖战锤！从第一个熔炉中锻造出来的圣物！**
-
-*突然站起身，胡须因激动而抖动*
-
-**但要我们交出它？除非...**
-
-*转向王国代表，眼中闪过狡黠的光芒*
-
-**除非你们那些穿金戴银的贵族老爷真敢烧掉他们的律法书！那些条文可是比山里的矿石还硬！**
-
-*大步走向魔法物品所在的位置，铁靴踏得地面咚咚作响*
-
-**听着，软脚虾们！我有个更好的主意 - 既然都要献出圣物，不如先让这玩意儿认主！**
-
-*突然用战斧划破手掌，让鲜血滴在魔法物品上*
-
-**以先祖之血起誓！若它选择我，山地部落不仅献出战锤，还会用熔炉之焰为其他两方重铸圣物！**
-
-*转身面对其他代表，沾血的手掌拍在胸前*
-
-**这才叫真正的牺牲！不是放弃，而是重生！**
-*迅速抬起法杖，一道翠绿色的屏障挡在魔法物品前，将鲜血隔绝在外*
-
-**住手！莽撞的战士！**
-
-*长袍无风自动，面色前所未有的严厉*
-
-**你的血正在唤醒物品中沉睡的黑暗！看——**
-
-*指向被鲜血溅到的地面，那里的草叶正以肉眼可见的速度枯萎发黑*
-
-*深吸一口气，强迫自己恢复平静，转向其他代表时声音带着紧迫感*
-
-**诸位，时间不多了。月蚀的阴影已经开始回应血腥的召唤。**
-
-*从腰间解下一个镶嵌月光石的小瓶，倒出三滴银色液体在地上画出一个三角形*
-
-**我以皇家顾问的名义提议：即刻开始改良版的三圣试炼。每个势力派出代表完成对应考验，但必须同时进行！**
-
-*指向森林使者*
-
-**智慧考验——解读物品上的古老铭文；**
-
-*转向山地战士*
-
-**力量考验——遏制物品散发出的黑暗能量；**
-
-*最后指向自己*
-
-**而王国将负责心灵考验——在试炼期间维持三方魔法的平衡。**
-
-*突然从袖中抖落一本用白金锁链封住的厚重典籍，书封上的宝石正在不正常地跳动*
-
-**看，律法之书已经对危机做出反应。王国愿意第一个做出牺牲——但必须是同步的牺牲！**
-
-*用锐利的目光扫视众人*
-
-**要么三方现在立刻同时行动，要么...**
-
-*抬头望向已经开始泛红的天边*
-
-**我们就要面对比月蚀更可怕的后果了。**
-*法杖上的藤蔓突然疯狂生长，在众人周围形成一个发光的绿色结界，隔绝外界逐渐变红的月光*
-
-**你们的争执惊醒了沉睡的恶兆...听！连风中的精灵都在尖叫逃窜！**
-
-*突然扯下兜帽，露出布满发光纹路的面容，双眼完全变成翡翠色*
-
-*用颤抖的手从怀中取出一颗跳动着绿光的种子，其光芒与律法书和始祖战锤产生共鸣*
-
-**永恒之种...森林跳动的心脏...我以萨满之名将它献出。但记住——**
-
-*将种子抛向三角形中心，它在空中分裂成三道光束分别射向三件圣物*
-
-**这不是妥协，而是命运的必然！月蚀阴影已经爬上我的视野边缘！**
-
-*突然单膝跪地，法杖插入地面，方圆十米的植物全部绽放出刺目的蓝光*
-
-**山地之子！用你的战锤击打东方的结界点！王国智者！将律法书翻至第二百页！现在！**
-
-*声音开始出现重音，仿佛多个声音同时在说话*
-
-**黑暗在蠕动...我看到了...三圣物共鸣时...物品会显现真正的形态...快！**
-
-*周围的树木开始扭曲变形，树皮上浮现出与魔法物品相同的符文*
-*暴怒地扯断几根胡须，双眼因充血而通红，却反常地没有立即反驳*
-
-**...哼！森林的疯婆子总算说了句人话！**
-
-*突然转身，始祖战锤在手中旋转三圈后重重砸向东方结界点，冲击波震碎了方圆五米的岩石*
-
-**山地人说到做到！但记住——**
-
-*战锤与结界接触的瞬间迸发出熔岩般的红光，照亮了他狰狞的笑容*
-
-**——等这事完了，我要亲手用熔炉重铸你们的圣物！到时候可别哭着说太烫！**
-
-*一边维持着战锤的压力，一边斜眼瞥向王国代表*
-
-**喂！穿长袍的！你那本破书再不动起来，我就把它和你的假发一起塞进熔炉里！**
-
-*突然闷哼一声，战锤上的黑曜石开始出现裂纹*
-
-**该死的...这玩意儿在吸食我的怒气！**
-
-*咬破舌尖喷出一口血雾，血珠在空中燃烧成符文*
-
-**以先祖之名——熔炉永不熄灭！**
-
-*战锤突然迸发出刺目的金光，与另外两件圣物的光芒在魔法物品上方交织成光网*
-
-*压低声音对森林使者吼道*
-
-**老树精！你的预言最好靠谱...否则等月蚀结束，我要把你们的神树砍了当柴烧！**
-*全身的发光纹路如同活物般游走，法杖深深插入地面，双手张开仿佛托举着无形的重担*
-
-**愚蠢的熔炉之子...你的愤怒正在喂养黑暗！但...确实有效...**
-
-*突然仰头发出一声不似人类的尖啸，周围的蓝光植物同时爆裂，释放出无数光点*
-
-**三圣共鸣开始了！看——**
-
-*魔法物品在三色光网中缓缓升起，表面开始剥落，露出内部跳动的核心——一颗被锁链缠绕的微型红月*
-
-*声音突然变得虚弱，但依然坚持吟诵着古老的咒文*
-
-**王国...律法书...翻到...预言篇章...森林的种子...连接生命之网...山地的战锤...击碎...虚伪的...**
-
-*突然剧烈颤抖，法杖上的藤蔓开始焦黑枯萎*
-
-**太快了...月蚀提前了...必须...完成...仪式...**
-
-*用尽最后的力气将法杖折断，爆发的绿色能量注入三圣物形成的三角中心*
-
-**以...永恒轮回之名...**
-
-*倒下的瞬间，三道光束终于完全交汇，被锁链缠绕的红月核心开始剧烈脉动*
-
-*用气若游丝的声音对山地战士说*
-
-**现在...咆哮吧...熔炉之子...让始祖战锤的...最后一击...**
-
-*伸手抓向空中飘落的灰烬*
-
-**释放...被束缚的...新月...**
-*双眼完全被红光充斥，肌肉暴涨撑裂了铁甲，却爆发出狂野的大笑*
-
-**哈哈哈哈！这才像样！让那些躲在城堡和树洞里的懦夫们看看——什么才是真正的力量！**
-
-*将裂纹密布的战锤抡过头顶，全身燃起实质化的怒气火焰*
-
-**听着，老树精！这一锤下去，要么拯救世界——要么我们一起下地狱！**
-
-*突然用战锤猛击自己胸口，喷出的鲜血在空气中燃烧成古老的符文*
-
-**以始祖熔炉的十二道火焰起誓！山地部落的荣耀——**
-
-*战锤带着雷霆万钧之势砸向悬浮的红月核心，冲击波瞬间掀翻了方圆百米的岩石*
-
-**——永不熄灭！！！**
-
-*在锤与月相撞的瞬间，时间仿佛静止。战锤彻底粉碎，释放出无数道金光刺入红月*
-
-*单膝跪地，用残存的锤柄支撑身体，对着濒死的森林使者露出染血的狞笑*
-
-**怎么样...老树精...这一锤...够不够...热烈...？**
-
-*突然剧烈咳嗽，喷出的血沫在半空凝结成微型熔炉的形状*
-
-**告诉你的精灵崽子们...这是...山地人的...牺牲...**
-
-*用最后力气扯下颈间的黑曜石吊坠丢向光网中心*
-
-**熔炉的...火种...拿去吧...但记住...**
-
-*在失去意识前发出最后的咆哮*
-
-**...活下来的混蛋...要给老子...立座像！！！**
+<speak> We stand at a crossroads, friends. The earth trembles, the rivers murmur, and the winds carry warnings. This magic item... it is not a prize to be won, but a test of our unity. Will we let greed divide us, or will we work together to preserve the balance?</speak>
 ```
 
-The summarized and polished story looks like...
+#### ===== Round 1 World State =====
 
-```plaintext
-在三大势力交界的迷雾峡谷，命运之风裹挟着腐朽落叶与铁锈气息。当那件刻有月蚀纹路的魔法物品从裂开的地缝中升起时，王国的星象师听见了水晶球碎裂的脆响。
+The world remains in a fragile peace, but Thorn's warning about the magic item has heightened tensions. The Forest's unease is palpable, and the other factions are now more aware of the potential dangers. The Kingdom, the Tribe, and the Forest are each weighing their next moves, with Thorn advocating for unity and caution. The magic item's presence continues to stir curiosity and fear, and the balance of power hangs in the balance.
 
-【森林的低语】
-银纹萨满艾尔薇拉是最先抵达的，她法杖上的荧光蘑菇在阴影中绽开时，整片苔原突然绽放出星图般的蓝光。"这不是争夺，"她的声音带着千年古木的震颤，"被诅咒的新月正在苏醒。"兜帽滑落的瞬间，在场所有人都看见她眼角渗出的树液——那是森林子民流泪的方式。当山地战士的嗤笑震落松针时，她只是将永恒之种贴近心口，种子与心跳的共鸣让方圆十里的橡树同时垂下枝条。
+#### ===== Mountain Chieftain's Round =====
 
-【熔炉的咆哮】
-格罗姆·铁砧的登场如同雪崩般粗暴。当刻着十二道火焰纹的始祖战锤砸进地面时，裂缝中喷出的却不是岩浆，而是黑如夜色的暗火。"懦夫才信预言！"他胡须里缠绕的熔岩符文随着怒吼亮起，却在看见魔法物品吞 噬鲜血的异变时突然沉默。这个曾单枪匹马屠龙的战士，此刻盯着自己正在腐化的左手，突然发出比战吼更令人战栗的大笑："好！够带劲！"他扯下祖传的黑曜石项链时，项链在他掌心熔化成滚烫的誓言。        
+```
+<action> Grimrock strokes his thick beard thoughtfully, the spikes on his helmet glinting in the dim light. His dark eyes narrow as he listens to Thorn's words, the fire within him flickering like the forge's flame.</action>
 
-【律法的辉光】
-皇家顾问阿尔方索的白金法典正在自行翻页，书页摩擦声像极了急促的呼吸。当他说出"同步牺牲"时，法典突然暴起锁链缠住他的手腕——这些由初代国王胡须锻造的律法锁链，此刻却在他苍白的皮肤上烙出"信任"的古体字。"以秩序之名，"他撕下预言篇章的动作优雅如舞剑，飘散的金粉却在空中组成哭泣的天使面容，"但有些秩序，必须用混乱来重建。"
+<think> Hmph. The shaman speaks of balance, but what does a tree-hugger know of dwarven steel and mountain gold? Still... if there's a magic item stirring trouble, best not let the elves get their delicate hands on it first. </think>
 
-【三圣共鸣】
-当永恒之种扎入法典的羊皮纸，当战锤碎片的金光刺穿森林结界，峡谷中央升起的光柱里浮现出令星辰失色的景象：被锁链束缚的红月核心中，蜷缩着三个势力始祖的灵魂。艾尔薇拉的尖叫与格罗姆的大笑奇异地交融——他们同时认出了自己祖先扭曲的面容。阿尔方索的白金假发在能量风暴中燃烧，露出额头上与法典同款的锁链纹身。
+<speak> Aye, Thorn, the earth does tremble—but not from fear. It shakes with the weight of dwarven boots marchin’ to meet whatever threat this magic bauble poses! </speak>
 
-【最后一锤】
-格罗姆的最后一击不是用战锤，而是将自己化作人形熔炉撞向红月。在血肉与魔法核心融合的瞬间，人们清晰听见十二声锻打声——那是山地部落代代相传的铸魂秘技。艾尔薇拉折断的法杖突然生根，将她与正在消散的格罗姆相连，"看啊莽夫，"她沙哑的声音第一次带上温度，"你的熔炉...开出了花。"而阿尔方索跪在悬浮的法典上，用烧焦的手指写完了最后一条临时律法："今日起，牺牲成为最高美德。"
+<action> He unslings his battle-axe and rests it against his shoulder, the weight familiar and comforting. The wine pot at his waist sways as he takes a step forward, his shield clanking against his armor.</action>
 
-当纯净的新月从红壳中诞生时，三件圣物的残骸交织成横跨峡谷的虹桥。游吟诗人们后来传说，每当月蚀之夜，桥上会出现三个并肩而行的影子——一个踩着熔岩舞步，一个身后绽放花径，中间那个则在不断重写着发光的律令。而在三大势力的新盟约上，烙着奇特的印记：半朵蓝铃花，半把碎裂的战锤，中间缠绕着仍在燃烧的锁链。
+<speak> If this thing’s dangerous, then let the Tribe forge a cage for it—stronger than elven spells and deeper than any forest root. But mark my words, shaman—if it’s treasure, then by stone and sweat, it’ll be ours to claim fair and square! </speak>
 
-（终章）
-峡谷的石碑上刻着三行截然不同的文字：
-"永恒轮回始于破碎"——森林符文
-"痛快！"——山地部落的熔岩文
-"第207条补充条例"——王国花体字
-而在碑文下方，不知被谁用焦黑的手指画了座歪歪扭扭的雕像，雕像的胡须上挂着朵发光的蓝铃花。
+<think> And if Eldara thinks her pretty words will sway me, she’s got another thing coming. The last time elves "advised" us, we ended up with a treaty that favored their silver tongues over our honest labor. </think>
+
+<action> He takes a swig from his wine pot, wiping his mouth with the back of his hand before glaring between Thorn and Eldara.</action>
+
+<speak> So, what’s it to be? Do we stand here jawin’ like nervous goats, or do we act like warriors and face this thing head-on? </speak>
+```
+
+#### ===== Round 2 World State =====
+
+The world remains in a fragile peace, but tensions have escalated as Grimrock's declaration of dwarven dominance over the magic item clashes with Thorn's plea for unity. The Forest's unease grows, and the Kingdom's cautious stance is now challenged by the Tribe's boldness. The magic item's presence has become a focal point of factional rivalry, threatening the delicate balance. Thorn's warnings are met with skepticism, and Eldara's wisdom is needed to mediate before the situation spirals into conflict.
+
+#### ===== Royal Advisor's Round =====
+
+```
+<action> Eldara stands with her crystal-topped staff held firmly in both hands, her azure robes flowing gently as if stirred by an unseen breeze. Her melancholic blue eyes shift between Thorn and Grimrock, weighing their words with the patience of centuries.</action>
+
+<think> Thorn speaks of balance, yet his words carry the weight of the Forest's unease. Grimrock's boldness is expected, but his eagerness could ignite a conflict none of us can afford. The magic item... it must not become a symbol of division. The Kingdom's stability hinges on wisdom, not force.</think>
+
+<speak> "Thorn, your counsel is heard, and the Forest's whispers are not ignored. Grimrock, your strength is undeniable, but even the mightiest axe cannot cleave through fate's weave."</speak>
+
+<action> She raises her staff slightly, the crystal at its tip glowing with a soft, steady light. Her voice remains calm, but there is an undercurrent of authority—the tone of one who has guided kings and shaped laws.</action>
+
+<speak> "This artifact is no mere trinket to be claimed or caged. It is a thread in the tapestry of our world, and its placement must be deliberate. The Kingdom proposes a council—a gathering of minds from each faction to study its nature and determine its rightful path. Let us not act in haste, lest we unravel what centuries of peace have woven."</speak>
+
+<think> The king would approve of this approach. It maintains the Kingdom's role as mediator while acknowledging the concerns of the others. But will Thorn's idealism and Grimrock's pride allow for compromise?</think>
+
+<action> She turns her gaze fully to Grimrock, her expression unreadable but her eyes piercing. "Would the Tribe honor such a gathering, or must we test our wills against one another first?"</action>
+```
+
+#### ===== Round 3 World State =====
+
+The world remains in a fragile peace, but tensions have escalated further as Grimrock's declaration of dwarven dominance clashes with both Thorn's plea for unity and Eldara's proposal for a council. The Forest's unease grows, and the Kingdom's cautious stance is now challenged by the Tribe's boldness. The magic item's presence has become a focal point of factional rivalry, with Thorn advocating for balance, Grimrock asserting dwarven claim, and Eldara proposing a diplomatic solution. The situation teeters on the edge of conflict, with each faction's next move critical to maintaining or shattering the peace.
+
+#### ===== Forest Shaman's Round =====
+
+```
+<think> Grimrock's fire burns bright, but it blinds him to the deeper currents. Eldara's wisdom is vast, yet even she may not fully grasp the Forest's unease. The magic item... it hums with a power that does not belong to any one hand. The balance trembles.</think>
+
+<action> Thorn closes his eyes for a moment, listening to the rustling leaves and the distant call of a hawk. The green light in his staff pulses softly, mirroring the rhythm of his breath. When he opens his eyes again, the sparks within them glow brighter.</action>
+
+<speak> "Grimrock, your strength is like the mountain's roots—unyielding. But even the deepest stone cracks under the weight of imbalance. Eldara, your council is wise, but councils take time, and the Forest's whispers grow urgent."</speak>
+
+<action> He plants his staff firmly into the earth, and the ground beneath them shivers slightly, as if in agreement. The charms woven into his braids clink softly, stirred by an unseen wind.</action>
+
+<speak> "This artifact is not a thing to be claimed, nor a riddle to be solved by debate alone. It is a living thread, woven into the world's fabric. If we pull too hard, the weave may fray. I propose a different path—let it choose its own keeper. Let the magic decide, as it always has."</speak>
+
+<think> The dwarves will bristle at this, and the elves may hesitate. But the Forest does not lie—the item's will is its own. If they cannot see that, the consequences will be dire.</think>
+
+<action> Thorn's gaze lingers on the horizon, where the trees sway uneasily. His voice drops, carrying the weight of prophecy. "The winds carry a warning. Heed it, or we will all answer to the storm."</action>
+```
+
+#### ===== Round 4 World State =====
+
+The world teeters on the brink of conflict as Thorn's proposal for the magic item to choose its own keeper clashes with Grimrock's assertion of dwarven claim and Eldara's call for a diplomatic council. The Forest's unease intensifies, its whispers growing more urgent, while the Tribe's boldness and the Kingdom's cautious diplomacy strain the fragile peace. The magic item's presence has become a focal point of tension, with each faction's stance hardening. The next move could either defuse the situation or ignite a full-scale confrontation.
+
+#### ===== Mountain Chieftain's Round =====
+
+```
+<action> Grimrock lets out a deep, rumbling chuckle, his thick beard bristling as he shakes his head. He tightens his grip on his battle-axe, the metal creaking under his calloused fingers.</action>
+
+<think> *Aye, the shaman speaks of magic choosing its keeper, and the elf wants a council. Both sound like fancy ways of saying "let’s waste time while someone else takes what’s ours."* </think>
+
+<speak> "Thorn, yer Forest whispers may be urgent, but the mountains don’t whisper—they roar. And right now, they’re tellin’ me that sittin’ around waitin’ for some trinket to pick a favorite is a fool’s game!" </speak>
+
+<action> He slams the butt of his axe into the ground, sending a small tremor through the earth. The wine pot at his waist sloshes as he leans forward, his dark eyes burning like coals.</action>
+
+<speak> "Eldara, yer council sounds like a fine way for the Kingdom to talk us in circles while they sneak off with the prize. And Thorn—yer ‘let it choose’ idea? Sounds like a quick path to chaos. If this thing’s got a mind of its own, then it’ll respect strength, and there’s none stronger than dwarven steel!" </speak>
+
+<think> *If the elves and the tree-folk won’t act, then the Tribe will. Better to seize it now than regret it later.* </think>
+
+<action> He takes another swig from his wine pot, then wipes his mouth with the back of his hand, glaring at both of them.</action>
+
+<speak> "So here’s my counter-proposal: we go to the damned thing together—no sneakin’, no schemin’—and let it see who’s worthy. If it truly chooses, then fine. But if it’s just sittin’ there waitin’ to be claimed, then by my beard, the first hand on it gets to keep it!" </speak>
+
+<action> He hefts his axe onto his shoulder, the spikes on his helmet catching the light as he grins fiercely.</action>
+
+<speak> "What say ye? Or are ye both too busy talkin’ to act?" </speak>
+```
+
+#### ===== Round 5 World State =====
+
+The world teeters on the brink of conflict as Thorn's proposal for the magic item to choose its own keeper clashes with Grimrock's assertion of dwarven claim and Eldara's call for a diplomatic council. The Forest's unease intensifies, its whispers growing more urgent, while the Tribe's boldness and the Kingdom's cautious diplomacy strain the fragile peace. The magic item's presence has become a focal point of tension, with each faction's stance hardening. Grimrock's challenge to confront the artifact directly adds fuel to the fire, risking an open clash if the others refuse. The next move could either defuse the situation or ignite a full-scale confrontation.
+
+#### ===== Royal Advisor's Round =====
+
+```
+<action> Eldara's grip tightens slightly on her staff, the crystal at its tip flickering with a subdued azure glow. Her silver hair cascades over her shoulders as she tilts her head, her melancholic eyes reflecting the weight of centuries of diplomacy and conflict.</action>
+
+<think> Grimrock's brashness is as predictable as the tides, but his proposal carries a dangerous simplicity. Thorn's idealism is noble, yet naive—magic items may choose, but factions will still war over the chosen. The king would counsel patience, but patience wears thin when axes are raised.</think>
+
+<speak> "Grimrock, your courage is as unyielding as the mountains you hail from, but even the mightiest peak knows when to stand firm and when to yield. Thorn, your faith in the artifact's will is... poetic, but the world is not governed by poetry alone."</speak>
+
+<action> She steps forward, her robes whispering against the earth, and levels her gaze at Grimrock, then Thorn, her voice measured but firm.</action>
+
+<speak> "Very well. If you insist on confronting the artifact directly, then let it be done—but not as a free-for-all. We three shall approach it together, as representatives of our factions. No blades drawn, no spells cast. Let it sense our intentions, not our violence. And when it chooses—if it chooses—we abide by its decision. That is the Kingdom's condition."</speak>   
+
+<think> A gamble, but one that may yet preserve the peace. If the artifact rejects us all, it will force humility upon them. If it chooses one... then the others must honor their word—or face the consequences.</think>
+
+<action> She turns slightly, her staff's light casting a faint glow over the tense space between them. Her voice softens, but only slightly.</action>
+
+<speak> "Or do you fear the judgment of magic itself, Grimrock? Thorn?"</speak>
+```
+
+#### ===== Round 6 World State =====
+
+The world teeters on the brink of conflict as Thorn's proposal for the magic item to choose its own keeper clashes with Grimrock's assertion of dwarven claim and Eldara's call for a diplomatic council. The Forest's unease intensifies, its whispers growing more urgent, while the Tribe's boldness and the Kingdom's cautious diplomacy strain the fragile peace. The magic item's presence has become a focal point of tension, with each faction's stance hardening. Grimrock's challenge to confront the artifact directly adds fuel to the fire, risking an open clash if the others refuse. The next move could either defuse the situation or ignite a full-scale confrontation. Eldara's proposal for a joint approach to the artifact has been put forward, but Thorn's concerns about the Forest's warnings and Grimrock's impatience remain unresolved. The artifact's choice—or lack thereof—will determine the fate of the fragile alliance between the factions.
+
+#### ===== Forest Shaman's Round =====
+
+```
+<think> Grimrock's stubbornness is like a boulder in a river—unmoving, yet causing ripples that disturb all around it. Eldara seeks order, but even her wisdom may not see the storm brewing beneath the surface. The Forest's whispers grow louder, more insistent. The artifact is not just a test of unity—it is a harbinger.</think>
+
+<action> Thorn exhales slowly, the green light in his staff dimming momentarily as if mirroring his contemplation. He lifts his gaze to meet Eldara's, then Grimrock's, his eyes flickering like distant lightning in a storm.</action>
+
+<speak> "Eldara, your condition is fair. Grimrock, your courage is undeniable. But hear this—the artifact does not merely 'choose.' It *answers.* It answers the call of the world's balance, and if we approach it with divided hearts, it will answer in kind."</speak>
+
+<action> He presses his palm against the bark of the nearest tree, closing his eyes as if listening. The leaves above rustle urgently, and a single feather woven into his braid trembles.</action>
+
+<speak> "Very well. We three shall approach it together. But know this: if the artifact's answer is one we do not expect—if it speaks in ways we do not understand—we must heed it. Not as Kingdom, Tribe, or Forest, but as guardians of this world."</speak>
+
+<think> The winds shift. The Forest holds its breath. Whatever comes next... it will change everything.</think>
+
+<action> Thorn pulls his staff from the earth, the green light flaring once more as he turns toward the distant glade where the artifact rests. His voice is low, carrying the weight of prophecy.</action>
+
+<speak> "Lead the way, then. But tread lightly. The earth remembers every step."</speak>
+```
+
+#### ===== Round 7 World State =====
+
+The world teeters on the brink of a decisive moment as Thorn, Grimrock, and Eldara agree to approach the artifact together, each bound by their own convictions. The Forest's whispers grow urgent, the mountains rumble with impatience, and the Kingdom's diplomatic veneer strains under the weight of impending choice. The artifact's decision—or lack thereof—will either solidify the fragile alliance or shatter it entirely. The factions' representatives now stand united in purpose but divided in intent, their next actions poised to reshape the balance of power. The magic item's true nature remains unknown, but its influence over the world's fate is undeniable.
+
+#### ===== Royal Advisor's Round =====
+
+```
+<action> Eldara's fingers trace the intricate silver embroidery of her robe, her gaze lingering on the distant glade where the artifact rests. The crystal atop her staff pulses faintly, mirroring the rhythm of her measured breaths.</action>
+
+<think> Thorn speaks of balance, yet his trust in the artifact's will borders on recklessness. Grimrock's bravado is a spark waiting to ignite a wildfire. The Kingdom's stability hinges on this moment—I cannot afford missteps. If the artifact chooses, it must choose wisely. If it rejects us all... perhaps that is the best outcome.</think>
+
+<speak> "Then let us proceed, but with caution. The artifact's power is unknown, and its judgment may not align with our expectations."</speak>
+
+<action> She lifts her staff slightly, the crystal's glow brightening to illuminate the path ahead. Her voice carries the weight of centuries, calm but unyielding.</action>
+
+<speak> "Remember, we approach as representatives, not conquerors. Let no blade be drawn, no spell cast in haste. The artifact will sense our intentions—let them be pure."</speak>
+
+<think> The king would approve of this measured approach. But if Grimrock's axe or Thorn's magic disrupts the balance... I must be ready to intervene. The holy laws demand it.</think>     
+
+<action> She steps forward, her azure robes flowing like water over the earth, and glances back at Thorn and Grimrock, her blue eyes piercing.</action>
+
+<speak> "Follow, if you will. But heed the silence between your steps—it often speaks louder than words."</speak>
+```
+
+#### ===== Round 8 World State =====
+
+The representatives of the Forest, the Tribe, and the Kingdom have agreed to approach the mysterious artifact together, each bound by their own convictions but united in purpose. Thorn's connection to nature warns of impending imbalance, Grimrock's dwarven pride demands action, and Eldara's diplomatic wisdom seeks to mediate. The artifact's true nature remains unknown, but its influence over the world's fate is undeniable. As they move toward the glade, tensions simmer beneath the surface—the Forest's whispers grow urgent, the mountains rumble with impatience, and the Kingdom's veneer of order strains under the weight of the moment. The next steps will determine whether this fragile alliance holds or shatters entirely.
+
+#### ===== Mountain Chieftain's Round =====
+
+```
+<action> Grimrock grunts, shifting his weight as he adjusts the grip on his battle-axe. His dark eyes flick between Eldara’s glowing staff and Thorn’s pulsing green light, the fire in his scars simmering with impatience.</action>
+
+<think> *Bah! More talk of purity and silence. If the artifact’s half as clever as they claim, it’ll know a dwarf’s worth by the weight of his axe and the strength of his arm.* </think>   
+
+<speak> "Aye, we’ll go together—no blades, no spells, fine. But mark this, elf: if that trinket’s got half the sense of a dwarven forge, it’ll see the value in honest labor over pretty words." </speak>
+
+<action> He takes a heavy step forward, his spiked helmet glinting as he shoulders past a low-hanging branch. The wine pot at his waist sloshes with each determined stride.</action>       
+
+<speak> "And Thorn—yer ‘earth remembers every step’? Pfah! The mountains remember the dwarves who carve ‘em, not the wind that whispers over ‘em. Let’s see what this artifact’s made of." </speak>
+
+<think> *If it’s treasure, it’s ours. If it’s trouble, we’ll cage it. And if it’s got a mind of its own... well, we’ll see whose will is stronger.* </think>
+
+<action> He spares one last glance at the others, his grin fierce beneath his beard. "Well? Keep up, or are ye both waitin’ for an invitation?"</action>
+```
+
+#### ===== Round 9 World State =====
+
+The representatives of the Forest, the Tribe, and the Kingdom have reached a tense agreement to approach the artifact together, each bound by their own convictions but united in purpose. Thorn's connection to nature warns of impending imbalance, Grimrock's dwarven pride demands action, and Eldara's diplomatic wisdom seeks to mediate. As they move toward the glade where the artifact rests, the air grows thick with unspoken tension—the Forest's whispers grow urgent, the mountains rumble with impatience, and the Kingdom's veneer of order strains under the weight of the moment. The artifact's true nature remains unknown, but its influence over the world's fate is undeniable. The next steps will determine whether this fragile alliance holds or shatters entirely.
+
+#### ===== Royal Advisor's Round =====
+
+```
+<action> Eldara's lips press into a thin line as Grimrock strides ahead, her grip on her staff tightening imperceptibly. The crystal's glow dims slightly, as if mirroring her restrained frustration.</action>
+
+<think> His bravado is a hammer in search of a nail—crude, but effective. Yet even the sturdiest hammer shatters against the wrong anvil. If the artifact rejects him, will his pride allow him to accept it? Or will he force a conflict that could unravel centuries of fragile peace?</think>
+
+<speak> "Patience, Grimrock. The artifact has waited this long; it will not vanish for the sake of a few more measured steps."</speak>
+
+<action> She glides forward, her robes whispering over the grass, her staff's light casting long shadows ahead. Her gaze flicks to Thorn, noting the way the Forest shaman's eyes remain fixed on the rustling leaves.</action>
+
+<think> Thorn's faith in nature's judgment is admirable, but the world is not so simple. Magic items may choose, but mortals interpret—and misinterpret. If the artifact's choice divides us further, will he stand by his ideals, or will the Forest's whispers demand something darker?</think>
+
+<speak> "Thorn, you speak of balance. If the artifact's answer is... unexpected, will the Forest abide by it? Or will the winds carry new warnings?"</speak>
+
+<action> She pauses at the edge of the glade, the artifact's resting place now visible—a shimmering, indistinct shape hovering above a stone pedestal, pulsing with latent power. Her breath catches, just for a moment.</action>
+
+<think> So this is the thread that could unravel us all. Let it see the Kingdom's wisdom. Let it choose peace.</think>
+
+<speak> "We stand at the threshold. Let us approach together—and may the world's balance guide us."</speak>
+```
+
+#### ===== Round 10 World State =====
+
+The representatives of the Forest, the Tribe, and the Kingdom stand at the edge of the glade, the artifact pulsing with latent power before them. Thorn's connection to nature hums with unease, Grimrock's dwarven pride bristles at the delay, and Eldara's diplomatic resolve strains under the weight of the moment. The artifact's presence is undeniable—its choice, or lack thereof, will determine whether this fragile alliance holds or shatters. The air is thick with tension, each faction's values and desires laid bare as they prepare to face the artifact's judgment together.
+
+#### ===== Forest Shaman's Round =====
+
+```
+<think> The artifact hums with a power that resonates deep within the Forest's bones. Grimrock's impatience is a storm cloud, Eldara's caution a still pond—both necessary, yet neither seeing the full truth. The balance teeters... but perhaps this is the moment the world has been waiting for.</think>
+
+<action> Thorn steps forward, his bare feet pressing into the earth as if drawing strength from it. The green light in his staff flares briefly, casting eerie shadows across his scarred face. His braids sway as he tilts his head, listening to the whispers of the wind through the leaves.</action>
+
+<speak> "The Forest does not fear the unexpected, Eldara. It adapts, as all living things must. But heed this—the artifact's answer may not be a choice between us, but a challenge for us all."</speak>
+
+<action> He raises his staff, the carvings along its length glowing faintly as he gestures toward the shimmering artifact. The charms in his hair clink softly, stirred by an unseen breeze.</action>
+
+<speak> "Grimrock, your strength is undeniable. Eldara, your wisdom is vast. But the artifact will not judge us by what we wield or what we know—it will judge us by what we are willing to surrender. Are you prepared to lay down your axes and your spells, if the balance demands it?"</speak>
+
+<think> The air is thick with tension, like the moment before lightning strikes. The Forest holds its breath... and so must I.</think>
+
+<action> Thorn takes a slow, deliberate step toward the glade, his staff's light pulsing in time with the artifact's rhythm. His voice drops to a murmur, barely louder than the rustling leaves.</action>
+
+<speak> "Come. Let us face the answer together—whatever it may be."</speak>
+```
+
+#### ===== Round 11 World State =====
+
+The representatives of the Forest, the Tribe, and the Kingdom stand at the edge of the glade, the artifact pulsing with latent power before them. Thorn's connection to nature hums with unease, Grimrock's dwarven pride bristles at the delay, and Eldara's diplomatic resolve strains under the weight of the moment. The artifact's presence is undeniable—its choice, or lack thereof, will determine whether this fragile alliance holds or shatters. The air is thick with tension, each faction's values and desires laid bare as they prepare to face the artifact's judgment together. The artifact hovers above a stone pedestal, its shimmering form resonating with the trio's conflicting energies—Thorn's green magic, Eldara's azure glow, and Grimrock's fiery determination. The moment of reckoning is near.
+
+#### ===== Mountain Chieftain's Round =====
+
+```
+<action> Grimrock rolls his broad shoulders, the spikes on his helmet catching the light as he steps forward, his battle-axe resting easily against his shoulder. His dark eyes gleam with a mix of defiance and curiosity as he studies the shimmering artifact.</action>
+
+<think> *Surrender? Pfah! A dwarf surrenders nothing but sweat and steel. But if this trinket wants a test, then let it see the mettle of the Mountain Tribe.* </think>
+
+<speak> "Lay down me axe? Not likely, Thorn. But if this artifact’s got a challenge, then let it speak plain. I’ll not dance around its riddles like some elf at court!" </speak>
+
+<action> He strides toward the pedestal, his boots thudding against the earth with each step. The wine pot at his waist sways, and he absently pats it, as if drawing courage from its weight.</action>
+
+<speak> "Ye want unity? Fine. But mark me—if this thing’s got a lick of sense, it’ll see the value in a dwarf’s word. We don’t twist ours like silver-tongued elves or whisper like tree-folk. We say what we mean, and we mean what we say." </speak>
+
+<action> He stops just short of the artifact, his shield raised slightly, not in threat but in readiness. The fire in his scars pulses faintly, as if in tune with the artifact’s glow.</action>
+
+<think> *Let it choose. Let it try. The mountains don’t bend, and neither do we.* </think>
+
+<speak> "Well? What’s it waitin’ for? A formal invitation?" </speak>
+
+<action> He glares at the artifact, his beard bristling, as if daring it to make its move.</action>
+```
+
+#### ===== Round 12 World State =====
+
+The artifact pulses with increasing intensity as the three representatives stand before it, their conflicting energies—Thorn's green magic, Eldara's azure glow, and Grimrock's fiery determination—intertwining in the air. The tension is palpable, each faction's values and desires laid bare. The artifact's judgment seems imminent, its choice—or rejection—poised to either solidify the fragile alliance or shatter it entirely. The winds have stilled, the Forest holds its breath, and the very earth beneath them seems to wait in anticipation.
+
+#### ===== Royal Advisor's Round =====
+
+```
+<action> Eldara's fingers tighten around her staff, the crystal's glow steadying as she watches Grimrock's bold approach. Her melancholic blue eyes flicker with a mix of caution and resolve, her silver hair catching the faint light of the artifact.</action>
+
+<think> Grimrock's defiance is as unyielding as the mountains he hails from, but his bluntness may yet be his undoing. Thorn's faith in the artifact's judgment is noble, but the world is not so kind as to reward idealism alone. The Kingdom's stability hangs in the balance—I must ensure it is not tipped by recklessness.</think>
+
+<speak> "Grimrock, your honesty is... refreshing, but even the sturdiest stone cracks under the weight of arrogance. Thorn, your trust in the artifact's wisdom is commendable, but wisdom often wears many faces."</speak>
+
+<action> She steps forward, her azure robes flowing like a quiet river, and raises her staff slightly. The crystal's light casts a soft glow over the artifact, as if testing its nature.</action>
+
+<speak> "Let us not provoke what we do not understand. If the artifact seeks a challenge, let it be one of unity, not dominance. The Kingdom stands for order, but order without harmony is brittle."</speak>
+
+<think> The king would counsel patience, but patience wears thin when axes are raised and tempers flare. If the artifact chooses Grimrock, will Thorn accept it? If it chooses Thorn, will Grimrock honor his word? And if it chooses me... will they see it as wisdom or manipulation?</think>
+
+<action> She turns her gaze fully to the artifact, her voice low but carrying the weight of centuries.</action>
+
+<speak> "Artifact, if you will judge us, then judge us not by our words alone, but by the futures we would weave. The Kingdom seeks stability, the Forest seeks balance, and the Tribe seeks strength. Which thread will you choose to pull?"</speak>
+
+<action> The crystal atop her staff pulses once, as if in silent agreement, and she waits, her breath steady, her eyes unblinking.</action>
+```
+
+#### ===== Round 13 World State =====
+
+The artifact's glow intensifies, its pulsing light now synchronizing with the energies of the three representatives—Thorn's green magic, Eldara's azure glow, and Grimrock's fiery determination. The air crackles with tension as the artifact seems to weigh their words and intentions. The Forest's whispers grow silent, the mountains' echoes still, and even the Kingdom's order feels suspended in this pivotal moment. The artifact's judgment is imminent, poised to either unite or fracture the fragile alliance between the factions.
+
+#### ===== Forest Shaman's Round =====
+
+```
+<think> The artifact pulses with a rhythm that echoes the heartbeat of the Forest itself. Grimrock's defiance is like a wildfire—uncontrolled but full of life. Eldara's measured words are the cool waters that seek to temper it. Yet neither sees the deeper truth: the artifact is not just a judge, but a mirror. It reflects the fractures between us, and the choice it offers may be one we cannot foresee.</think>
+
+<action> Thorn closes his eyes, drawing in a slow breath as the green light in his staff flickers like a dying ember. The charms in his braids tremble, stirred by the unseen currents of magic swirling around the artifact. When he opens his eyes again, the sparks within them burn brighter, reflecting the artifact's glow.</action>
+
+<speak> "Grimrock, your honesty is the mountain's roar—loud, unyielding. Eldara, your wisdom is the river's flow—deep, unwavering. But the artifact does not seek to crown one over the other. It seeks... alignment."</speak>
+
+<action> He steps forward, his bare feet pressing into the earth as if rooting himself to the world's pulse. His staff rises, the carvings along its length glowing faintly as he points it toward the artifact. The air hums with energy, the Forest's whispers growing urgent.</action>
+
+<speak> "Look closer. It does not judge us as individuals, but as fragments of a greater whole. The Kingdom's order, the Tribe's strength, the Forest's balance—these are not opposing forces. They are threads of the same tapestry."</speak>
+
+<think> The artifact's light shifts, its glow now tinged with gold, green, and azure—colors of the three factions. It is not choosing. It is weaving. And if we do not see it, the unraveling will be swift.</think>
+
+<action> Thorn's voice drops to a whisper, barely audible over the rustling leaves. His gaze locks onto the artifact, his expression unreadable but his eyes alight with understanding.</action>
+
+<speak> "It is not waiting for us to prove ourselves. It is waiting for us to remember—we are already bound. The question is not which thread it will pull, but whether we will let it weave us together... or tear us apart."</speak>
+
+<action> He lowers his staff, the green light dimming as if in deference to the artifact's growing radiance. The wind stills, the Forest holds its breath, and for a moment, the world itself seems to pause.</action>
+
+<speak> "The choice is yours. But choose quickly—the storm gathers."</speak>
+```
+
+#### ===== Round 14 World State =====
+
+The artifact's glow shifts, now shimmering with gold, green, and azure—colors representing the Kingdom, the Forest, and the Tribe. Its pulsing light weaves through the air, binding the three representatives in a visible tapestry of energy. The tension is palpable as the artifact's intent becomes clear: it seeks not to choose one over the others, but to unite them. The Forest's whispers, the mountains' echoes, and the Kingdom's order all resonate in harmony, awaiting the final decision that will either forge an alliance or fracture the fragile peace.
+
+#### ===== Royal Advisor's Round =====
+
+```
+<action> Eldara's gaze lingers on the artifact, her melancholic blue eyes reflecting its shimmering light. The crystal atop her staff pulses in harmony with the artifact's rhythm, as if whispering secrets only she can hear.</action>
+
+<think> Thorn speaks of unity, yet his words carry the weight of the Forest's isolation. Grimrock's defiance is a blade poised to cut the very threads we seek to weave. The artifact's glow... it does not favor one over the other. It seeks something deeper—something the Kingdom has long understood: order is meaningless without harmony.</think>
+
+<speak> "Thorn, your insight is... illuminating. Grimrock, your strength is undeniable. But the artifact's radiance does not dim for one and brighten for another. It shines for all—or none."</speak>
+
+<action> She steps forward, her azure robes flowing like a quiet tide, and extends her staff toward the artifact. The crystal's light intertwines with the artifact's glow, casting intricate patterns across the glade.</action>
+
+<speak> "The Kingdom proposes this: let the artifact not choose a keeper, but a purpose. Let it guide us not as rivals, but as stewards. If it seeks alignment, then let us align—not under one banner, but as three pillars upholding the same sky."</speak>
+
+<think> The king would approve. A shared burden, not a contested prize. If Thorn's Forest and Grimrock's Tribe can accept this, the peace may yet hold. If not... then the artifact's judgment will be the least of our concerns.</think>
+
+<action> She turns her gaze to Grimrock, then Thorn, her voice softening but losing none of its authority.</action>
+
+<speak> "Will the Tribe and the Forest stand with the Kingdom in this? Or will we let pride fracture what magic seeks to unite?"</speak>
+
+<action> The crystal atop her staff flares once, a silent challenge—or perhaps an offering.</action>
+```
+
+#### ===== Round 15 World State =====
+
+The artifact's glow shifts, now shimmering with gold, green, and azure—colors representing the Kingdom, the Forest, and the Tribe. Its pulsing light weaves through the air, binding the three representatives in a visible tapestry of energy. The tension is palpable as the artifact's intent becomes clear: it seeks not to choose one over the others, but to unite them. The Forest's whispers, the mountains' echoes, and the Kingdom's order all resonate in harmony, awaiting the final decision that will either forge an alliance or fracture the fragile peace.
+
+#### ===== Mountain Chieftain's Round =====
+
+```
+<action> Grimrock's thick fingers drum against the haft of his battle-axe, the rhythmic thud echoing like a forge hammer. His dark eyes narrow as he watches the artifact's glow mingle with Eldara's crystal, the colors swirling like molten metal in a crucible.</action>
+
+<think> *Three pillars, eh? Sounds like elf-talk for "let's all hold hands and sing." But... if this thing's power is real, and it's not just some shiny lure for fools...* </think>        
+
+<speak> "Aye, elf, yer words are pretty as polished silver. But the Tribe doesn’t uphold the sky—we carve our own path through it!" </speak>
+
+<action> He spits to the side, then hefts his axe, turning the blade so it catches the artifact’s light. The fire in his scars flares briefly, as if in challenge.</action>
+
+<think> *Thorn’s right about one thing—this ain’t about crowns or caging. But strength’s still the answer. Just not the kind they’re thinkin’.* </think>
+
+<speak> "Fine. If the artifact wants unity, then let’s show it what that means—dwarf-style. No singin’, no whisperin’, just honest labor. We’ll forge a pact, right here, with steel and stone as witnesses!" </speak>
+
+<action> He slams his axe into the ground, the impact sending a tremor through the glade. With his free hand, he yanks the wine pot from his belt and takes a deep swig, then offers it first to Thorn, then Eldara, his grin fierce beneath his beard.</action>
+
+<speak> "A drink to seal the deal. Or are ye both too dainty for dwarven ale?" </speak>
+
+<think> *Let’s see if their fancy magic can stomach a taste of the mountains.* </think>
+```
+
+#### ===== Round 16 World State =====
+
+The artifact's glow shifts, now shimmering with gold, green, and azure—colors representing the Kingdom, the Forest, and the Tribe. Its pulsing light weaves through the air, binding the three representatives in a visible tapestry of energy. The tension is palpable as the artifact's intent becomes clear: it seeks not to choose one over the others, but to unite them. The Forest's whispers, the mountains' echoes, and the Kingdom's order all resonate in harmony, awaiting the final decision that will either forge an alliance or fracture the fragile peace. Grimrock's offer of a dwarven pact, sealed with ale, hangs in the air—a test of unity in the face of tradition and pride.
+
+#### ===== Royal Advisor's Round =====
+
+```
+<action> Eldara's lips twitch slightly at Grimrock's offer, her melancholic blue eyes flickering with a mix of amusement and exasperation. She watches the dwarven ale slosh in the pot, its pungent aroma wafting through the glade.</action>
+
+<think> A dwarven pact sealed with ale—crude, but undeniably sincere. The king would chuckle at the simplicity, though he'd never admit it. Still, if this is what it takes to bind the Tribe's word... </think>
+
+<speak> "Grimrock, your ale is as unrefined as your diplomacy, but the gesture is... appreciated." </speak>
+
+<action> She reaches out, her slender fingers wrapping around the wine pot with deliberate grace. She takes a measured sip, her expression unreadable as the strong brew burns its way down. The crystal atop her staff flickers briefly, as if in protest.</action>
+
+<speak> "The Kingdom accepts your pact. Let steel and stone witness it—and let the artifact see our unity, however unorthodox its sealing." </speak>
+
+<action> She passes the pot to Thorn, her gaze lingering on the artifact's pulsing light. The azure glow of her staff intertwines with its radiance, casting shimmering reflections across her silver hair.</action>
+
+<think> If this is the thread that binds us, then let it hold. The king's peace depends on it—and so does the world's balance. </think>
+
+<speak> "Thorn, the Forest's voice is yours to answer. Will you drink to this alliance, or will the winds carry your refusal?" </speak>
+
+<action> She steps back, her staff's light steadying, her posture regal yet open—a silent challenge and an offering in one.</action>
+```
+
+#### ===== Round 17 World State =====
+
+The artifact's glow shifts, now shimmering with gold, green, and azure—colors representing the Kingdom, the Forest, and the Tribe. Its pulsing light weaves through the air, binding the three representatives in a visible tapestry of energy. The tension is palpable as the artifact's intent becomes clear: it seeks not to choose one over the others, but to unite them. The Forest's whispers, the mountains' echoes, and the Kingdom's order all resonate in harmony, awaiting the final decision that will either forge an alliance or fracture the fragile peace. Grimrock's offer of a dwarven pact, sealed with ale, hangs in the air—a test of unity in the face of tradition and pride. Thorn now holds the wine pot, the Forest's response pivotal to the artifact's judgment.
+
+#### ===== Forest Shaman's Round =====
+
+```
+<think> Grimrock's ale is as rough as his tongue, and Eldara's sip was a dance of diplomacy. But the Forest does not judge by refinement—it judges by truth. The artifact's light weaves our colors together, and the winds whisper of a path forward. Balance demands sacrifice, but also trust.</think>
+
+<action> Thorn takes the wine pot from Eldara, his calloused fingers wrapping around its worn surface. He studies the dark liquid within, the green sparks in his eyes reflecting like fireflies in a deep pool. The charms in his braids clink softly as he tilts his head, listening to the distant rustle of leaves.</action>
+
+<speak> "The Forest does not drink often, Grimrock... but it remembers the taste of rain, the strength of roots, and the fire of the sun. This ale of yours—it carries the mountain's breath, does it not?" </speak>
+
+<action> He raises the pot to his lips and takes a slow, deliberate swallow, his throat working as the ale burns its way down. When he lowers it, his exhale is sharp, but his lips curl into a rare, faint smile.</action>
+
+<speak> "A strong brew, for strong bonds. The Forest accepts your pact—sealed not by steel or stone alone, but by the earth that cradles us all." </speak>
+
+<action> He passes the pot back to Grimrock, then turns to the artifact, his staff pulsing softly in time with its glow. The green light flares briefly as he plants it into the ground, the carvings along its length shimmering like veins of emerald.</action>
+
+<speak> "Now, let the artifact see what we have woven. Let it answer not to one hand, but to three hearts—aligned, if not yet united." </speak>
+
+<think> The storm gathers, but so does the dawn. The Forest's whispers grow quiet, waiting. Whatever comes next... we face it together.</think>
+```
+
+#### ===== Round 18 World State =====
+
+The artifact's glow intensifies, its gold, green, and azure light merging into a radiant harmony as the pact is sealed. The air hums with latent power, the artifact resonating with the unity of the three representatives. The Forest's whispers quiet, the mountains' echoes still, and the Kingdom's order holds its breath—all awaiting the artifact's final judgment. The tension shifts from rivalry to anticipation, as the artifact's purpose now seems clear: it seeks not a keeper, but a covenant. The world's balance trembles on the edge of revelation.
+
+#### ===== Royal Advisor's Round =====
+
+```
+<action> Eldara watches as Thorn drinks from the dwarven ale, her expression unreadable but her posture relaxed. The crystal atop her staff dims slightly, as if mirroring her cautious optimism.</action>
+
+<think> Grimrock's ale is as rough as his tongue, yet there is a sincerity in this gesture that treaties and councils often lack. Thorn's acceptance is a hopeful sign—perhaps the Forest's whispers are not so opposed to unity after all. The artifact's glow... it brightens as we stand together. Is this the alignment it seeks?</think>
+
+<speak> "Then let it be done. The Kingdom, the Forest, and the Tribe stand as one before the artifact. Let it witness our pact—not of conquest, but of shared stewardship."</speak>
+
+<action> She raises her staff, the crystal's light merging with the artifact's radiance, casting a shimmering tapestry of gold, green, and azure across the glade. Her voice carries the weight of centuries, yet there is a rare warmth beneath its measured tone.</action>
+
+<speak> "Grimrock, your ale has sealed more than a bargain—it has bridged divides older than these trees. Thorn, your faith in the earth's wisdom has guided us well. Now, let the artifact speak its truth."</speak>
+
+<think> If it chooses none of us, the peace may hold. If it chooses one... then the others must honor their word. The king's laws demand it, and so does the world's balance.</think>       
+
+<action> She steps forward, her azure robes flowing like a quiet river, and extends her free hand toward the artifact, palm open in offering. Her blue eyes reflect its pulsing light, unwavering.</action>
+
+<speak> "We are ready."</speak>
+```
+
+#### ===== Round 19 World State =====
+
+The artifact's glow intensifies, its gold, green, and azure light merging into a radiant harmony as the pact is sealed. The air hums with latent power, the artifact resonating with the unity of the three representatives. The Forest's whispers quiet, the mountains' echoes still, and the Kingdom's order holds its breath—all awaiting the artifact's final judgment. The tension shifts from rivalry to anticipation, as the artifact's purpose now seems clear: it seeks not a keeper, but a covenant. The world's balance trembles on the edge of revelation.
+
+#### ===== Forest Shaman's Round =====
+
+```
+<think> The artifact's glow is no longer just light—it is a living thing, breathing in time with the world's pulse. Grimrock's ale sits warm in my belly, a reminder of the fire he carries. Eldara's crystal hums with quiet power, a counterpoint to the Forest's whispers. The pact is sealed, but the true test begins now.</think>
+
+<action> Thorn steps forward, his bare feet pressing into the earth as if drawing strength from its depths. The green light in his staff flares, then steadies, mirroring the artifact's rhythm. His braids sway as he tilts his head, listening to the silence between heartbeats.</action>
+
+<speak> "The Forest hears you, artifact. It has always heard. But now, we listen together—Kingdom, Tribe, and Forest. Speak, and we will heed."</speak>
+
+<action> He reaches out, not with his staff, but with his free hand, palm upturned like Eldara's. The scars on his skin catch the artifact's light, old wounds that have long since healed but never faded. The charms in his hair tremble, stirred by the unseen currents of magic.</action>
+
+<think> It is not just choosing. It is remembering. And so must we.</think>
+
+<speak> "Grimrock, your axe is your truth. Eldara, your crystal is your wisdom. My staff is my bond to the earth. Let the artifact see them all—not as weapons, but as offerings. Let it decide what to make of us."</speak>
+
+<action> The wind rises, rustling the leaves like a thousand hushed voices. The artifact's glow intensifies, its light weaving around their outstretched hands, their weapons, their symbols of power. Thorn's breath catches, but he does not flinch.</action>
+
+<speak> "Steady now. The storm comes... but so does the dawn."</speak>
+```
+
+### Final Story
+
+```markdown
+**The Pact of the Artifact**  
+
+The ancient Forest murmured with unrest, its leaves rustling warnings on the wind. Thorn, the Forest Shaman, stepped from the shadows of the oaks, his twisted staff pulsing with green light. His braided hair, adorned with feathers and charms, swayed as he listened to the whispers of the trees.
+
+*The artifact stirs,* he thought. *It does not belong to any one faction—not the Kingdom, the Tribe, nor the Forest. It is a test of unity.*
+
+Grimrock, the dwarven chieftain, stood like a mountain himself, his spiked helmet glinting as he stroked his thick beard. His battle-axe rested against his shoulder, and his dark eyes burned with impatience.
+
+"Bah! If this magic trinket’s dangerous, the Tribe will forge a cage for it!" he boomed, taking a swig from his wine pot. "And if it’s treasure, then by stone and sweat, it’s ours to claim!"
+
+Eldara, the high elf advisor, stood serene in her azure robes, her crystal-topped staff glowing faintly. Her silver hair shimmered as she spoke with measured wisdom. "This artifact is no mere prize. It is a thread in the world’s tapestry. The Kingdom proposes a council—let us study it before acting in haste."
+
+Thorn’s eyes flickered with green sparks. "The Forest does not whisper idly. This artifact is alive—it will choose its own keeper, if we let it."
+
+Grimrock scoffed. "Then let’s go to the damned thing and see whose will is stronger!"
+
+Eldara exhaled softly. "Very well. We approach together—no blades, no spells. Let it judge our intentions."
+
+The artifact hovered above a stone pedestal, its light shifting between gold, green, and azure—colors of the three factions. The air hummed with latent power.
+
+Thorn pressed a hand to the earth, feeling its tremor. "It does not seek a victor. It seeks alignment."
+
+Grimrock stepped forward, his axe planted firmly. "Then let it see dwarven steel!"
+
+Eldara raised her staff. "Or elven wisdom."
+
+Thorn’s voice was low. "Or the Forest’s balance."
+
+The artifact pulsed brighter, its light weaving around them.
+
+Eldara spoke first. "Let it choose not a keeper, but a purpose. Let us stand as three pillars—Kingdom, Tribe, and Forest—upholding the same sky."
+
+Grimrock grunted, then yanked his wine pot free. "Aye, then let’s seal this pact dwarf-style!" He drank deeply, then offered it to Eldara.
+
+She sipped with grace, though her crystal flickered in protest. "The Kingdom accepts."
+
+Thorn took the pot next, the ale burning like mountain fire. "The Forest accepts."
+
+As the last drop was drunk, the artifact’s glow intensified, its light merging into radiant harmony. The winds stilled. The earth held its breath.
+
+Then, in a voice like rustling leaves and echoing stone, the artifact spoke:
+
+*"Unity is not taken. It is given."*
+
+The light flared—gold, green, and azure entwined—and then settled, not upon one, but upon all three.
+
+Thorn smiled faintly. "The balance is kept."
+
+Grimrock clapped his hands. "Then let’s get to work!"
+
+Eldara nodded. "For the world’s sake."
+
+And so, beneath the artifact’s watchful glow, the pact was sealed—not by force, but by choice.
+
+The storm had passed.
+
+The dawn had come.
 ```
 
 ## Acknowledgements
